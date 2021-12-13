@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--- Basic Page Needs  -->
+    <meta charset="utf-8">
+    <title>GraphRoute - Sistema simple y eficiente de optimización y monitoreo de rutas para la gestión logística en distribución.</title>
+     <meta name="description" content="Solucion de optimizacion de rutas para visita de tus clientes y monitoreo de tus conductores en campo.">
+    <meta content="GraphRoute - Sistema simple y eficiente de optimizacion y monitoreo de rutas para la gestión logística en distribución." property="og:title"/>
+    <meta content="Solucion de optimizacion de rutas para visita de tus clientes y monitoreo de tus conductores en campo." property="og:description"/>
+     <meta name="robots" content="rutero, plannig, routing, vrp, fleet management, gps, monitoreo de vehiculos, tracking live, traffic, transportation, last mile, Bus,Delivery,Depot,Distribute,Driver,Fleet,Order,Pickup,School,Tour,Truck" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Mobile Specific Meta  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/slicknav.min.css">
+    <link rel="stylesheet" href="assets/css/magnificpopup.css">
+    <link rel="stylesheet" href="assets/css/jquery.mb.YTPlayer.min.css">
+    <link rel="stylesheet" href="assets/css/typography.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="assets/img/icon/favicon.ico?v=2">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148252405-1">
+    </script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-148252405-1');
+    </script>
+
+</head>
+
+<body>
+    <!-- preloader area start -->
+    <div id="preloader">
+        <div class="spinner"></div>
+    </div>
+    <!-- preloader area end -->
+    <!-- header area start -->
+    <header id="header">
+        <div class="header-area">
+            <div class="container">
+                <div class="row">
+                    <div class="menu-area">
+                        <div class="col-md-2 col-sm-12 col-xs-12">
+                            <div class="logo">
+                                <a href="index.html"><img src="assets/img/icon/logo.png" alt="GraphRoute"></a>
+                            </div>
+                        </div>
+                        <div class="col-md-10 hidden-xs hidden-sm">
+                            <div class="main-menu">
+                                <nav class="nav-menu">
+                                    <ul>
+                                        <li class="active"><a href="#home">Inicio</a></li>
+                                        <li><a href="#feature">Funcionalidades</a></li>
+                                        <li><a href="#testimonial">Testimonios</a></li>
+                                        <li><a href="#client">Clientes</a></li>
+                                        <!--li><a href="#screenshot">Galleria</a></li-->
+                                        <!--li><a href="#pricing">Precios</a></li-->
+                                        <!--li><a href="#team">Equipo</a></li-->
+                                        <!--li><a href="#download">Descarga</a></li-->
+                                        <li><a href="faq.html">Preguntas Frecuentes</a></li>
+                                        <li><a href="blog.html">Blog</a></li>
+                                        <li><a href="#contact">Conoce Más</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-xs-12 visible-sm visible-xs">
+                            <div class="mobile_menu"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header area end -->
+    <!-- slider area start -->
+<!--    <section id="home" class="slider-area with-gradiant full-opacity">-->
+    <section id="home" class="slider-area home_banner_area full-opacity">
+        <div class="container">
+              <div class="col-md-6 col-sm-6 hidden-xs">
+                <div class="row">
+                    <div class="slider-inner text-left">
+                        <h2>¡Bienvenido a GraphRoute!</h2>
+                        <h5>Perfecciona y monitorea tus rutas para entregas, visitas a clientes, servicios técnicos y cualquier servicio en campo</h5>
+                        <!--
+                        <div class="video-area1">
+                          <h5>Échale un vistazo
+                          <a class="expand-video" href="https://www.youtube.com/watch?v=ZhqEC7zYosw"><i class="fa fa-play"></i></a>
+                          </h5>
+                        </div>  
+                          -->
+                      </div>
+                      <!--div class="d-flex align-items-center mt-60">
+                        <a class="video-play-button" href="https://www.youtube.com/watch?v=ZhqEC7zYosw">
+                          <span></span>
+                        </a>
+                        <div class="watch_video">
+                            <h5>Ver una Demo en Vivo</h5>
+                            <p>Estás a un paso</p>
+                        </div>
+                      </div-->
+                </div>
+            </div>        
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="row">
+                    <div class="slider-img">
+<!--                        <img src="assets/img/web/pantalla_ladoizq.png" alt="slider image">-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- slider area end -->
+    <!-- service area start -->
+    <div class="service-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="service-single">
+                        <img src="assets/img/service/service-img1.png" alt="service image">
+                        <h2>Optimiza el Uso de Vehículos</h2>
+                        <p>Ahorra tiempo y costo optimizando de forma fácil y rápida rutas de manera más inteligentes. </p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12 col-6">
+                    <div class="service-single">
+                        <img src="assets/img/service/service-img2.png" alt="service image">
+                        <h2>Controla Tu Operación</h2>
+                        <p>Monitorea con GPS los vehículos en campo y recibe pruebas gráficas y en mapa de las entregas o recogidas realizadas. </p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12 col-6">
+                    <div class="service-single">
+                        <img src="assets/img/service/service-img3.png" alt="service image">
+                        <h2>Mejora el Servicio a Tu Cliente</h2>
+                        <p>Genera cada visita de acuerdo a la disponibilidad de los clientes y mantenlos informados acerca del estado de la visita.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- service area end -->
+    <!-- about area start -->
+    <div class="about-area ptb--100">
+        <div class="container">
+            <div class="row d-flex flex-center">
+                <div class="col-md-6 col-sm-6 hidden-xs">
+                    <div class="about-left-img">
+                        <img src="assets/img/about/abt-left-img.png" alt="image">
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-xs-12 d-flex flex-center">
+				
+                    <div class="about-content">
+				<div class="section-title">
+					<h2>Nuestros Beneficios</h2>
+					<p><b>GraphRoute</b> tiene funcionalidades innovadores que aportan un valor diferencial a tu empresa.</p>
+                      </div>
+                        <p>Es un software completo que permite gestionar rutas de múltiples de salidas y paradas; de forma sencilla pero eficientes.</p>
+                        <p>Teniendo en cuenta horarios, capacidad de carga, tipo de carga, tiempos de espera, ubicaciones de vehículos etc., podrás crear rutas óptimas, hacer seguimiento en tiempo real logrando reducir costos de operación y aumentar la satisfacción de tu cliente.</p>
+                        <p>Aumenta el uso de tus vehículos, entrega más y recorre menos. No hay necesidad de incrementar tus jornada laboral o contratar más vehículos, si te decides por <b>GraphRoute</b></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- about area end -->
+    <!-- feature area start -->
+    <section class="feature-area bg-gray ptb--100" id="feature">
+        <div class="container">
+            <div class="section-title">
+                <h2>Funcionalidades</h2>
+                <p>¿Por qué nos consolidamos como la mejor Solución del Mercado?</p>
+            </div>
+            <div class="row">
+<!--                <div class="col-md-4 col-sm-6 col-xs-12">-->
+                <div class="col-md-6 col-sm-6">
+                    <div class="ft-content rtl">
+                        <div class="ft-single">
+                            <img src="assets/img/icon/feature/1.png" alt="icon">
+                            <div class="meta-content">
+                                <h2>Georreferenciación</h2>
+                                <p>Cargue de archivo Excel con la información de las paradas o clientes a visitar para su posterior geolocalización. Este archivo en el sistema se configura como un "proyecto" el cual podrá reutilizar.</p>
+                            </div>
+                        </div>
+                        <div class="ft-single">
+                            <img src="assets/img/icon/feature/7.png" alt="icon">
+                            <div class="meta-content">
+                                <h2>Agendamiento</h2>
+                                <p>Opcionalmente podras agendar tus visitas y organizar de mejor manera tu proceso de despacho o servicios semales o mensuales</p>
+                            </div>
+                        </div>                        
+                        <div class="ft-single">
+                            <img src="assets/img/icon/feature/2.png" alt="icon">
+                            <div class="meta-content">
+                                <h2>Configuración de Planificación</h2>
+                                <p>Defina restricciones: ventana horario, rutas por vías principales, tiempo de servicio, consideración de tráfico esperado entre otras variables para ptimización</p>
+                            </div>
+                        </div>
+                        <div class="ft-single">
+                            <img src="assets/img/icon/feature/3.png" alt="icon">
+                            <div class="meta-content">
+                                <h2>Gestión de Lugares</h2>
+                                <p>Puedes Condionar el inicio y fin de tus rutas desde diferentes localizaciones tu punto de despacho, parqueaderos, vivienda de conductor, posición geográfica actual de tu vehículo etc.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+<!--
+                <div class="col-md-4 hidden-sm col-xs-12">
+                    <div class="ft-screen-img">
+                        <img src="assets/img/mobile/ft-screen-img.png" alt="image">
+                    </div>
+                </div>
+-->
+<!--                <div class="col-md-4 col-sm-6 col-xs-12">-->
+                <div class="col-md-6 col-sm-6 col-xs-12 d-flex flex-center">
+                    <div class="ft-content">
+                        <div class="ft-single">
+                            <img src="assets/img/icon/feature/4.png" alt="icon">
+                            <div class="meta-content">
+                                <h2>Gestiona Vehículos y Grupos de Vehículos</h2>
+                                <p>Configura tu flota de vehículos o grupo de vehículos asociados a cada conductor</p>
+                            </div>
+                        </div>
+                        <div class="ft-single">
+                            <img src="assets/img/icon/feature/5.png" alt="icon">
+                            <div class="meta-content">
+                                <h2>Edición Agil de Rutas </h2>
+                                <p>Tiene la posibilidad de modificar los resultados optimizados de manera rápida ante cualquier novedad, y podrá re-optimizar, tan fácil como arrastrar y soltar desde nuestro editor tipo linea de tiempo.</p>
+                            </div>
+                        </div>
+                        <div class="ft-single">
+                            <img src="assets/img/icon/feature/6.png" alt="icon">
+                            <div class="meta-content">
+                                <h2>Asignación y Visualización de Rutas en Ejecución</h2>
+                                <p>Monitorea en tiempo real el estado de tus rutas en Campo, desde un mapa de tracking</p>
+                            </div>
+                        </div>
+                        <div class="ft-single">
+                            <img src="assets/img/icon/feature/8.png" alt="icon">
+                            <div class="meta-content">
+                                <h2>Rendimiento de coductores</h2>
+                                <p>Ten a la mano indicadores de tu servicios y rendimiento de conductores por medio de reportes y gráficas</p>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- feature area end -->
+    <!-- achivement area start -->
+    <!--div class="achivement-area ptb--100">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="ach-single">
+                        <div class="icon"><i class="fa fa-users"></i></div>
+                        <p><span class="counter">10</span>k</p>
+                        <h5>Happy Clients</h5>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="ach-single">
+                        <div class="icon"><i class="fa fa-book"></i></div>
+                        <span class="counter">978</span>
+                        <h5>Projects complet</h5>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="ach-single">
+                        <div class="icon"><i class="fa fa-coffee"></i></div>
+                        <p><span class="counter">150</span>k</p>
+                        <h5>Cups of coffee</h5>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="ach-single">
+                        <div class="icon"><i class="fa fa-trophy"></i></div>
+                        <span class="counter">100</span>
+                        <h5>Winning awards</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div-->
+    <!-- achivement area end -->
+    <!-- screen slider area start -->
+<!--
+    <section class="screen-area bg-gray ptb--100" id="screenshot">
+        <div class="container">
+            <div class="section-title">
+                <h2>Screenshot</h2>
+                <p>Nemo enim ipsam voluptatem quia voluptas sit</p>
+            </div>
+            <img class="screen-img" src="assets/img/mobile/screen-slider.png" alt="mobile screen">
+            <div class="screen-slider owl-carousel">
+                <div class="single-screen">
+                    <img src="assets/img/mobile/screen-slider/screen1.jpg" alt="mobile screen">
+                </div>
+                <div class="single-screen">
+                    <img src="assets/img/mobile/screen-slider/screen2.jpg" alt="mobile screen">
+                </div>
+                <div class="single-screen">
+                    <img src="assets/img/mobile/screen-slider/screen3.jpg" alt="mobile screen">
+                </div>
+                <div class="single-screen">
+                    <img src="assets/img/mobile/screen-slider/screen4.jpg" alt="mobile screen">
+                </div>
+                <div class="single-screen">
+                    <img src="assets/img/mobile/screen-slider/screen5.jpg" alt="mobile screen">
+                </div>
+                <div class="single-screen">
+                    <img src="assets/img/mobile/screen-slider/screen3.jpg" alt="mobile screen">
+                </div>
+                <div class="single-screen">
+                    <img src="assets/img/mobile/screen-slider/screen4.jpg" alt="mobile screen">
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+    <!-- screen slider area end -->
+  
+    <div class="clinet-area bg-gray ptb--100" id="client">
+        <div class="container">
+              <div class="section-title">
+                <h2>Nuestros Clientes</h2>
+            </div>        
+            <div class="client-carousel owl-carousel">
+                <!--img src="assets/img/client/client-img.png" alt="client- image"-->
+                <img src="assets/img/client/client-img1.png" alt="client image">
+                <img src="assets/img/client/client-img2.png" alt="client image">
+                <!--img src="assets/img/client/client-img5.png" alt="client image"-->
+                <img src="assets/img/client/client-img3.png" alt="client image">
+                <img src="assets/img/client/client-img4.png" alt="client image">
+                <img src="assets/img/client/client-img6.png" alt="client image">
+                <img src="assets/img/client/client-img7.png" alt="client image">
+
+                
+            </div>
+        </div>
+    </div>  
+    <!-- testimonial carousel area start -->
+    <div class="testimonial-area ptb--100" id="testimonial">
+        <div class="container">
+            <div class="section-title">
+                <h2>Testimonios</h2>
+            </div>
+            <div class="testimonial-slider owl-carousel">
+                <div class="single-tst">
+                    <img src="assets/img/author/tst-author1.jpg" alt="author">
+                    <h4>Jaime Derch</h4>
+                    <span>Director de Operaciones Tescotur</span>
+                    <p><b>GraphRoute</b> Nos ha apoyado a visualizar y agilizar toda nuestra operación desde un único punto de acceso, asimismo a mejorar nuestro proceso de despacho y el servicio de atención a nuestros clientes.</p>
+                    <ul class="tst-social">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+                <div class="single-tst">
+                    <img src="assets/img/author/tst-author2.jpg" alt="author">
+                    <h4>Dagoberto Baracaldo Ortiz</h4>
+                    <span>Coordinador Operativo Bienestar Keralty</span>
+                    <p>Esta solución nos ha permitido colocar al transporte de nuestros colaboradores un herramienta de notificación oportuna para el pasajero, y la trazabilidad geografica de el rendimiento de los conductores.</p>
+                    <ul class="tst-social">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- testimonial carousel area end -->
+    <!-- video area start -->
+    <!--div class="video-area ptb--100">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
+                    <h2>Watch Video Demo</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+                    <a class="expand-video" href="https://www.youtube.com/watch?v=ZhqEC7zYosw"><i class="fa fa-play"></i></a>
+                </div>
+            </div>
+        </div>
+    </div-->
+    <!-- video area end -->
+    <!-- pricing area start -->
+    <!--section class="pricing-area ptb--100" id="pricing">
+        <div class="container">
+            <div class="section-title">
+                <h2>Pricing Plan</h2>
+                <p>Nemo enim ipsam voluptatem quia voluptas sit</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-12 col-6">
+                    <div class="single-price">
+                        <div class="prc-head">
+                            <span>Silver</span>
+                            <h5><small>$</small>50/m</h5>
+                        </div>
+                        <ul>
+                            <li>10 User</li>
+                            <li>1 Year</li>
+                            <li>512 Mb Memory</li>
+                            <li>30GB SSD Disk</li>
+                            <li>1 TB Transfer</li>
+                            <li>6 Months Support</li>
+                        </ul>
+                        <a href="#">Order Now</a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12 col-6">
+                    <div class="single-price">
+                        <div class="prc-head">
+                            <span>Silver</span>
+                            <h5><small>$</small>150/m</h5>
+                        </div>
+                        <ul>
+                            <li>10 User</li>
+                            <li>1 Year</li>
+                            <li>512 Mb Memory</li>
+                            <li>30GB SSD Disk</li>
+                            <li>1 TB Transfer</li>
+                            <li>6 Months Support</li>
+                        </ul>
+                        <a href="#">Order Now</a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12 col-6">
+                    <div class="single-price">
+                        <div class="prc-head">
+                            <span>Silver</span>
+                            <h5><small>$</small>250/m</h5>
+                        </div>
+                        <ul>
+                            <li>10 User</li>
+                            <li>1 Year</li>
+                            <li>512 Mb Memory</li>
+                            <li>30GB SSD Disk</li>
+                            <li>1 TB Transfer</li>
+                            <li>6 Months Support</li>
+                        </ul>
+                        <a href="#">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section-->
+    <!-- pricing area end -->
+    <!-- team area start -->
+    <!--section class="team-area bg-gray ptb--100" id="team">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nuestro Equipo</h2>
+                <p>Nemo enim ipsam voluptatem quia voluptas sit</p>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12 col-6">
+                    <div class="single-team">
+                        <div class="team-thumb">
+                            <img src="assets/img/team/team-img1.jpg" alt="image">
+                        </div>
+                        <h4>Jhon Deo</h4>
+                        <span>Web Developer</span>
+                        <ul class="tst-social">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                            <li><a href="#"><i class="fa fa-ponterest"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 col-6">
+                    <div class="single-team">
+                        <div class="team-thumb">
+                            <img src="assets/img/team/team-img2.jpg" alt="image">
+                        </div>
+                        <h4>Jhon Deo</h4>
+                        <span>Web Developer</span>
+                        <ul class="tst-social">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                            <li><a href="#"><i class="fa fa-ponterest"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 col-6">
+                    <div class="single-team">
+                        <div class="team-thumb">
+                            <img src="assets/img/team/team-img2.jpg" alt="image">
+                        </div>
+                        <h4>Jhon Deo</h4>
+                        <span>Web Developer</span>
+                        <ul class="tst-social">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                            <li><a href="#"><i class="fa fa-ponterest"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 col-6">
+                    <div class="single-team">
+                        <div class="team-thumb">
+                            <img src="assets/img/team/team-img4.jpg" alt="image">
+                        </div>
+                        <h4>Jhon Deo</h4>
+                        <span>Web Developer</span>
+                        <ul class="tst-social">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                            <li><a href="#"><i class="fa fa-ponterest"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section-->
+    <!-- team area end -->
+    <!-- call-action area start -->
+    <!--section class="call-to-action ptb--100" id="download">
+        <div class="container">
+            <div class="section-title text-white">
+                <h2>Our Amazing Team</h2>
+                <p>Nemo enim ipsam voluptatem quia voluptas sit</p>
+            </div>
+            <div class="download-btns btn-area text-center">
+                <a href="#"><i class="fa fa-apple"></i>android story</a>
+                <a href="#"><i class="fa fa-windows"></i>Windows story</a>
+                <a href="#"><i class="fa fa-android"></i>android story</a>
+            </div>
+        </div>
+    </section-->
+    <!-- call-action area end -->
+    <!-- blog area start -->
+
+<!--
+    <section class="blog-post ptb--100" id="blog">
+        <div class="container">
+            <div class="section-title">
+                <h2>Últimas Noticias</h2>
+                <p>Novedades consejos y temas de interés</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12 col-6">
+                    <div class="single-post">
+                        <a href="blog.html"><img src="assets/img/blog/blog-post-img.jpg" alt="blog image"></a>
+                        <div class="blog-meta">
+                            <ul>
+                                <li><i class="fa fa-user"></i>John</li>
+                                <li><i class="fa fa-comment"></i>Comments</li>
+                                <li><i class="fa fa-calendar"></i>21 Feb 2018</li>
+                            </ul>
+                        </div>
+                        <h2><a href="blog.html">There are many variations</a></h2>
+                        <p>Lorem ipsum dolor sit amet,ut consectetur adipisicing elit,eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 col-6">
+                    <div class="single-post">
+                        <a href="blog.html"><img src="assets/img/blog/blog-post-img1.jpg" alt="blog image"></a>
+                        <div class="blog-meta">
+                            <ul>
+                                <li><i class="fa fa-user"></i>John</li>
+                                <li><i class="fa fa-comment"></i>Comments</li>
+                                <li><i class="fa fa-calendar"></i>21 Feb 2018</li>
+                            </ul>
+                        </div>
+                        <h2><a href="blog.html">There are many variations</a></h2>
+                        <p>Lorem ipsum dolor sit amet,ut consectetur adipisicing elit,eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 col-6">
+                    <div class="single-post">
+                        <a href="blog.html"><img src="assets/img/blog/blog-post-img2.jpg" alt="blog image"></a>
+                        <div class="blog-meta">
+                            <ul>
+                                <li><i class="fa fa-user"></i>John</li>
+                                <li><i class="fa fa-comment"></i>Comments</li>
+                                <li><i class="fa fa-calendar"></i>21 Feb 2018</li>
+                            </ul>
+                        </div>
+                        <h2><a href="blog.html">There are many variations</a></h2>
+                        <p>Lorem ipsum dolor sit amet,ut consectetur adipisicing elit,eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+
+    <!-- blog area end -->
+    <!-- client area end -->
+    <!-- contact area start -->
+    <section class="contact-area ptb--100" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Conoce Más de GraphRoute</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="contact-form">
+                        <form id = "myForm" method="post">
+                            <input type="text" id= "name" name="name" required="required" placeholder="Nombre Completo*">
+                            <input type="text" id="email" name="email" required="true" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"  placeholder="Correo electrónico*">
+                            <input type="text" id="company" name="company" required="" placeholder="Empresa">
+                            <select id="fleet" name="fleet" required="" placeholder="Número de Vehículos"><option value="">Número de Vehículos</option><option value="1-20">1 - 20</option><option value="21-50">21 - 50</option><option value="detail">51 - 100</option><option value="100-500">100 - 500</option><option value="+500">+ 501</option></select>
+                            <input type="text" id="phone" name="phone" required="" placeholder="Teléfono">
+                            <input type="text" id="country" name="country" placeholder="País">
+                          <select id="wouldlike" name="wouldlike" required="" placeholder="Me Gustaría"><option value="">Me Gustaría</option><option value="learn">Aprender cómo usar GraphRoute</option><option value="contract">Saber cómo contratar GraphRoute</option><option value="detail">Que me contacten para más detalles</option><option value="meeting">Coordinar una reunión</option><option value="Otro">Otro</option></select>
+                          <select id="blog" name="blog" required="" placeholder="Selecciona una opción"><option value="">Desea Suscribirse al Blog</option><option value="yes">SI</option><option value="no">NO</option></select>
+                            <textarea name="msg" id="msg" placeholder="Mensaje adicional"></textarea>
+                            <input type= "submit" value="Enviar" id="send" name = "SubmitButton">
+                        </form>
+                        
+                    </div>
+                     <div class="alert alert-success" id="results"></div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="contact_info">
+                        <div class="s-info">
+                            <i class="fa fa-map-marker"></i>
+                            <div class="meta-content">
+                                <span>Carrera 75 # 24D - 83</span>
+                                <span>Bogota, CO</span>
+                            </div>
+                        </div>
+                        <div class="s-info">
+                            <i class="fa fa-mobile"></i>
+                            <div class="meta-content">
+                                <span>(+57) 300 6472112  </span>
+                            </div>
+                        </div>
+                        <div class="s-info">
+                            <i class="fa fa-paper-plane"></i>
+                            <div class="meta-content">
+                                <span>info@eurekatic.com</span>
+                            </div>
+                        </div>
+                        <div class="c-social">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <!--li><a href="#"><i class="fa fa-twitter"></i></a></li-->
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact area end -->
+    <!-- footer area start -->
+
+<footer id="colorlib-footer">
+   <div class="container">
+      <div class="row row-pb-md">
+         <div class="col-md-3 colorlib-widget">
+            <h4>Sobre GraphRoute</h4>
+            <p>GraphRoute reduce costos logísticos de Última Milla; podrás Optimizar Rutas y Monitorear tus Vehículos de manera ágil y óptima, incrementando la eficiencia de tu operación. Presente en industrias como: e-commerce, consumo masivo, abastecimiento, transporte de personal, fuerza de venta entre otros.</p>
+            <p></p>
+         </div>
+         <div class="col-md-3 colorlib-widget">
+            <h4>Enlaces Rápidos</h4>
+              <div class="desc">
+              <ul>
+                <li><a class="a_footer" href="#home">Inicio</a></li>
+                <li><a class="a_footer" href="#feature">Funcionalidades</a></li>
+                <li><a class="a_footer" href="#testimonial">Testimonios</a></li>
+                <li><a class="a_footer" href="#client">Clientes</a></li>
+                <li><a class="a_footer" href="faq.html">Preguntas Frecuentes</a></li>
+                <li><a class="a_footer" href="blog.html">Blog</a></li>
+                <li><a class="a_footer" href="#contact">Conoce Más</a></li>
+            </ul>
+            </div>
+         </div>
+         <div class="col-md-3 colorlib-widget">
+            <h4>Post Recientes</h4>
+            <div class="f-blog">
+               <a href="blog.html" class="blog-img" style="background-image: url(images/blog-1.jpg);">
+               </a>
+               <div class="desc">
+                  <h2><a class="a_footer" href="blog.html">Optimizador de Rutas con Aptitud Ecológica</a></h2>
+                  <p class="admin"><span>4 Jun 2019</span></p>
+               </div>
+            </div>
+            <div class="f-blog">
+               <a href="blog.html" class="blog-img" style="background-image: url(images/blog-2.jpg);">
+               </a>
+               <div class="desc">
+                  <h2><a class="a_footer" href="blog.html">Evidencia de visita por Código QR</a></h2>
+                  <p class="admin"><span>5 Nov 2019</span></p>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-3 colorlib-widget">
+            <h4>Información de Contacto</h4>
+            <ul class="colorlib-footer-links">
+               <li>Carrera 75 # 24 - 83 <br> Bogotá Colombia</li>
+               <li><a href="tel://3006472112"><i class="fa fa-mobile"></i>(+57) 300 6472112</a></li>
+               <li><a href="mailto:info@eurekatic.com"><i class="fa fa-paper-plane"></i> info@eurekatic.com</a></li>
+               <li><a href="#"><i class="fa fa-map-marker"></i>https://graphroute.app</a></li>
+            </ul>
+         </div>
+      </div>
+   </div>
+   <div class="copy">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12 text-center">
+               <p>
+                  GraphRoute ©<script type="text/javascript">document.write(new Date().getFullYear());</script>
+               </p>
+            </div>
+         </div>
+      </div>
+   </div>
+</footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery-3.2.0.min.js"></script>
+    <script src="assets/js/jquery-ui.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.slicknav.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/magnific-popup.min.js"></script>
+    <script src="assets/js/counterup.js"></script>
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <script src="assets/js/jquery.mb.YTPlayer.min.js"></script>
+    <script src="assets/js/theme.js"></script>
+    <script>
+        $(function() {
+            $('#myForm').on('submit', function (event) {
+              event.preventDefault();
+              var name = $("#name").val();
+              var email = $("#email").val();
+              var company = $("#company").val();
+              var phone = $("#phone").val();
+              var country = $("#country").val();
+              var msg = $("#msg").val();
+              var fleet = $("#fleet option:selected").val();
+              var wouldlike = $("#wouldlike option:selected").val();
+              var blog = $("#blog option:selected").val();
+              $.post("graphregister.php", { name:name, company:company, fleet:fleet, country:country, email: email, wouldlike:wouldlike, phone:phone, email:email, blog:blog, wouldlike:wouldlike, msg:msg },
+              function(data) {
+                  $('#results').html(data);
+                  $('#myForm')[0].reset();
+              });
+            });
+		});
+      </script>
+  
+</body>
+
+</html>
